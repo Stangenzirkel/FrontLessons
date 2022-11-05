@@ -1,3 +1,3 @@
 export default function indexPage() {
-    return <p> indexPage </p>;
+    return <p> 404 </p>;
 }
