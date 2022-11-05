@@ -1,3 +1,5 @@
+import {Text} from "../components/Text/Text";
+
 export default function indexPage() {
-    return <p> indexPage </p>;
+    return <Text>index page</Text>;
 }

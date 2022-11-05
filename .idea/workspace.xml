@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d1aaa25-e7b9-4c31-b916-212a33c7750e" name="Changes" comment="index.jsx test">
-      <change afterPath="$PROJECT_DIR$/blog/pages/404.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/pages/home/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/pages/users/index.jsx" afterDir="false" />
+    <list default="true" id="8d1aaa25-e7b9-4c31-b916-212a33c7750e" name="Changes" comment="home and users routes added&#10;workspace.xml edited">
+      <change afterPath="$PROJECT_DIR$/blog/components/Text/Button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/components/Text/Text.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pages/index.jsx" afterDir="false" />
     </list>
@@ -60,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667663501924</updated>
-      <workItem from="1667663503065" duration="3757000" />
+      <workItem from="1667663503065" duration="5121000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667664464988</created>
@@ -76,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667675603096</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="home and users routes added&#10;workspace.xml edited">
+      <created>1667677004770</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667677004770</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="index.jsx test" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.jsx test" />
+    <MESSAGE value="home and users routes added&#10;workspace.xml edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="home and users routes added&#10;workspace.xml edited" />
   </component>
 </project>
