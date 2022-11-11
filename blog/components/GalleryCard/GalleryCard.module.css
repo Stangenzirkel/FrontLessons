@@ -5,6 +5,10 @@
     padding: 10px;
     margin: 5px;
     border-radius: 3px;
+    color: #eaeaea;
+    font-family: "Apple Braille";
 }
 
-.image{}
+.image{
+    max-width: 100vh;
+}
