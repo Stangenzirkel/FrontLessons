@@ -1,9 +1,10 @@
 import React from "react";
+import css from "./GalleryCard.module.css"
 
 
 export const GalleryCard = ({image_src, description}) => {
-    return <div className="card">
-        <img width="100px" height="100px" src={image_src} alt="ГДЕ?"/>
+    return <div className={css.card}>
+        <img src={image_src} alt="ГДЕ?" className={css.image}/>
         <p> {description} </p>
     </div>;
 }

@@ -11,10 +11,12 @@ export default function indexGallery() {
         setContentState(ls => [...(ls || []), {image_src: e.target.url.value, description: e.target.description.value}]);
     }
 
-    return <App>
+    return <div>
+    <App>
         <GalleryForm onSubmit={handleFormSubmit}/>
         {contentState && <GalleryCards content={contentState}/>}
-    </App>;
+    </App>
+    </div>
 }
 
 
