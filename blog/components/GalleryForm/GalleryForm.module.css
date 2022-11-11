@@ -16,6 +16,7 @@
     border: none;
     border-right: solid #2b2b2b 2px;
     outline: none;
+    font-family: "Apple Braille";
 }
 
 .button_add{
