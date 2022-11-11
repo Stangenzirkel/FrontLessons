@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d1aaa25-e7b9-4c31-b916-212a33c7750e" name="Changes" comment="home and users routes added&#10;workspace.xml edited">
-      <change afterPath="$PROJECT_DIR$/blog/components/Text/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/components/Text/Text.jsx" afterDir="false" />
+    <list default="true" id="8d1aaa25-e7b9-4c31-b916-212a33c7750e" name="Changes" comment="красивск 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/components/App/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/components/App/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/components/GalleryCard/GalleryCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/components/GalleryCard/GalleryCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/components/GalleryCards/GalleryCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/blog/components/GalleryCards/GalleryCards.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/components/GalleryCards/GalleryCards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/components/GalleryCards/GalleryCards.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/components/GalleryForm/GalleryForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/components/GalleryForm/GalleryForm.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/digal/WebstormProjects/FrontLessons/blog/pages/home",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,7 +62,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667663501924</updated>
-      <workItem from="1667663503065" duration="5121000" />
+      <workItem from="1667663503065" duration="7447000" />
+      <workItem from="1668020211118" duration="22081000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667664464988</created>
@@ -82,7 +86,70 @@
       <option name="project" value="LOCAL" />
       <updated>1667677004770</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="text component added">
+      <created>1667678472388</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667678472388</updated>
+    </task>
+    <task id="LOCAL-00005" summary="gallery route created">
+      <created>1668021382925</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668021382925</updated>
+    </task>
+    <task id="LOCAL-00006" summary="form ui added">
+      <created>1668022005619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668022005619</updated>
+    </task>
+    <task id="LOCAL-00007" summary="all necessary functionality added">
+      <created>1668032668004</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668032668004</updated>
+    </task>
+    <task id="LOCAL-00008" summary="dif pages added">
+      <created>1668077757297</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668077757297</updated>
+    </task>
+    <task id="LOCAL-00009" summary="form clear">
+      <created>1668077990297</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668077990297</updated>
+    </task>
+    <task id="LOCAL-00010" summary="красивск">
+      <created>1668167671722</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668167671722</updated>
+    </task>
+    <task id="LOCAL-00011" summary="красивск 2">
+      <created>1668173830128</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668173830128</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bugfix">
+      <created>1668174270245</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668174270245</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +170,16 @@
     <MESSAGE value="init" />
     <MESSAGE value="index.jsx test" />
     <MESSAGE value="home and users routes added&#10;workspace.xml edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="home and users routes added&#10;workspace.xml edited" />
+    <MESSAGE value="text component added" />
+    <MESSAGE value="gallery route created" />
+    <MESSAGE value="form ui added" />
+    <MESSAGE value="all necessary functionality added" />
+    <MESSAGE value="dif pages added" />
+    <MESSAGE value="form clear" />
+    <MESSAGE value="красивск" />
+    <MESSAGE value="красивск 2" />
+    <MESSAGE value="bugfix" />
+    <MESSAGE value="красивск 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="красивск 3" />
   </component>
 </project>

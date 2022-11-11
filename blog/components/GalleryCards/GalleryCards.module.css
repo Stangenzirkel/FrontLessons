@@ -1,0 +1,29 @@
+.button{
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    margin-left: 0;
+    border: none;
+    border-right: solid #2b2b2b 2px;
+    color: white;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.page_num{
+    color: #eaeaea;
+}
+
+.page_switcher{
+    display: inline-block;
+    position: relative;
+    background-color: #45494a;
+    top: 10px;
+    left: 10px;
+    color: #9d9d9d;
+    font-family: "Apple Braille"
+    }
+
